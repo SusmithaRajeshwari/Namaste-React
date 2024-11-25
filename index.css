@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* More padding for better layout */
+    background: linear-gradient(45deg, #3b5998, #8b9dc3); /* Add gradient */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-items > ul > li {
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.nav-items > ul > li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-items > ul > li a:hover {
+    color: #f7c55c; /* Add some hover interaction */
+}
+
+.btn {
+    background-color: #ff6347;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e5533c;
+}
+
+/* Restaurant Cards */
+.res-card {
+    background-color: #fff;
+    padding: 25px;
+    margin: 15px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* More prominent shadow */
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.res-card:hover {
+    transform: scale(1.05); /* Slight scale effect */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.res-logo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.res-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Filter Section */
+.filter {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.search-box {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    width: 280px; /* Bigger search box */
+}
+/* General Button Styling */
+button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green color for search button */
+    color: white;
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+button:hover {
+    background-color: #218838; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift the button slightly */
+}
+
+/* Styling for Top Rated Restaurant button specifically */
+.filter-btn {
+    background-color: #FF6347; /* Tomato color for the top-rated button */
+}
+
+.filter-btn:hover {
+    background-color: #ff4500; /* Darker shade on hover */
+}
+
+/* Menu Page Styles */
+.menu h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.menu ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #fafafa;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.menu ul li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+.user-card{
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+}
+
+
+
